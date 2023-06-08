@@ -1,24 +1,20 @@
-//Constantes dos botões de somar ou subtrair braços;
-const subtrair = document.querySelector("#subtrair");
-const somar = document.querySelector("#somar");
-const braco = document.querySelector("#braco");
-
 //Constante que captura todos os controles de ajuste em um array
-const controle = document.querySelectorAll(".controle-ajuste");
+const controle = document.querySelectorAll("[data-controle]");
 console.log(controle)
 
-//Utiliza o array "controle" para capturar o texto do controle que foi clicado (se for um botão de soma, captura "+" e vice-versa)
+//Utiliza o array "controle" para capturar o data attribute ("+" ou "-") do controle que foi clicado. Também coleta informações da div pai daquele controle clicado.
 controle.forEach((elemento) => {
     elemento.addEventListener("click", (evento)=>{
-        manipulaDados(evento.target.textContent);
+        manipulaDados(evento.target.dataset.controle, evento.target.parentNode);
     })
 })
 
-//Função que manipula os dados dos braços
-function manipulaDados(operacao){
+//Função que manipula os dados da peça selecionada usando data-contador para detectar o contador selecionado.
+function manipulaDados(operacao, controle){
+    const peca = controle.querySelector("[data-contador]");
     if(operacao === "-"){
-        braco.value = parseInt(braco.value) - 1;
+        peca.value = parseInt(peca.value) - 1;
     } else {
-        braco.value = parseInt(braco.value) + 1;
+        peca.value = parseInt(peca.value) + 1;
     }
 }
