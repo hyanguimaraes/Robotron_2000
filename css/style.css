@@ -21,10 +21,13 @@ body, input {
     font-family: 'Teko', sans-serif;
 }
 
-main {
+main{
     width: 80vw;
-    height: 80vh;
-    margin: 10vh 8vw 10vh 12vw;
+    height: 100vh;
+    margin: 5vh 4vw 1.5vh 6vw;
+}
+
+.projetoOriginal {
     display: flex;
     gap: 1vw;
 }
@@ -43,6 +46,7 @@ main {
     position: absolute;
     left: -20%;
     top: -5%;
+    transition: 1.5s;
 }
 
 .titulo {
@@ -208,6 +212,59 @@ main {
     flex-basis: 35%;
     margin: 10px 0 0;
 }
+
+/*Botões de cores*/
+.cores{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cor{
+    margin-top: 1em;
+    max-width: 200px;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 0.2em 0.5em;
+    float: right;
+    border: 3px solid var(--main-branco);
+    background: var(--main-branco);
+    clip-path: polygon(100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0 0);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.cor:nth-child(1):hover{
+    background-color: #d6b73c;
+    color: #84602b;
+}
+
+.cor:nth-child(2):hover{
+    background-color: #5872a4;
+    color: #979272;
+}
+
+.cor:nth-child(3):hover{
+    background-color: #cedce4;
+    color: #b85743;
+}
+
+.cor:nth-child(4):hover{
+    background-color: #555451;
+    color: #c7ad2a;
+}
+
+.cor:nth-child(5):hover{
+    background-color: #eba3c3;
+    color: #4186bd;
+}
+
+.cor:nth-child(6):hover{
+    background-color: #bf5846;
+    color: #f4cfce;
+}
+
+/*Media Queries*/
 
 @media screen and (max-width: 1600px) {
     body { 

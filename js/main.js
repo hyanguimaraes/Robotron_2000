@@ -1,8 +1,16 @@
-//Constante que captura todos os controles de ajuste em um array
+//Constante que captura todos os controles de ajuste em um array;
 const controle = document.querySelectorAll("[data-controle]");
+
+//Constante que captura todos os valores das estatísticas do Robotron em um array;
 const estatisticas = document.querySelectorAll("[data-estatistica]");
 
-//Objeto "peças" contendo outros 05 objetos, sendo eles, "braços", "blindagem", "núcleos", "pernas" e "foguetes". Cada um desses possui 04 atributos: "força", "poder", "energia" e "velocidade".
+//Constante que captura os valores de cor do Robotron;
+const cores = document.querySelectorAll("[data-color]");
+
+//Constante que captura a imagem do Robotron que está sendo renderizada;
+const robotron = document.querySelector("#robotron");
+
+//Objeto "peças" contendo outros 05 objetos, sendo eles, "braços", "blindagem", "núcleos", "pernas" e "foguetes". Cada um desses possui 04 atributos: "força", "poder", "energia" e "velocidade";
 const pecas = {
     "bracos": {
         "forca": 29,
@@ -40,7 +48,7 @@ const pecas = {
     }
 }
 
-//Utiliza o array "controle" para capturar o data attribute ("+" ou "-") do controle que foi clicado. Também coleta informações da div pai daquele controle clicado. No click, também será chamada a função "Atualiza Estatísticas" que irá somar aos valores das peças.
+//Utiliza o array "controle" para capturar o data attribute ("+" ou "-") do controle que foi clicado. Também coleta informações da div pai daquele controle clicado. No click, também será chamada a função "Atualiza Estatísticas" que irá somar aos valores das peças;
 controle.forEach((elemento) => {
     elemento.addEventListener("click", (evento)=>{
         manipulaDados(evento.target.dataset.controle, evento.target.parentNode);
@@ -48,7 +56,7 @@ controle.forEach((elemento) => {
     })
 })
 
-//Função que manipula os dados da peça selecionada usando data-contador para detectar o contador selecionado.
+//Função que manipula os dados da peça selecionada usando data-contador para detectar o contador selecionado;
 function manipulaDados(operacao, controle){
     const peca = controle.querySelector("[data-contador]");
     if(operacao === "-"){
@@ -58,9 +66,22 @@ function manipulaDados(operacao, controle){
     }
 }
 
-//Função que atualiza as estatísticas, capturando o valor atual através do forEach (de cada elemento) e depois somando aos valores de estatísticas, os valores contidos no array (objeto) daquela peça, através do data-estatistica.
+//Função que atualiza as estatísticas, capturando o valor atual através do forEach (de cada elemento) e depois somando aos valores de estatísticas, os valores contidos no array (objeto) daquela peça, através do data-estatistica;
 function atualizaEstatisticas(peca){
     estatisticas.forEach( (elemento)=>{
         elemento.textContent = parseInt(elemento.textContent) + pecas[peca][elemento.dataset.estatistica]
     })
+}
+
+//Coleta o dataset da cor do botão que foi clicado;
+cores.forEach((elemento) => {
+    elemento.addEventListener('click', (evento) => {
+        corRobotron(elemento.dataset.color);
+    })
+})
+
+
+//Substitui a última palavra do nome da imagem pelo dataset obtido acima.
+const corRobotron = (cores) => {
+    robotron.src = `img/Robotron - ${cores}.png`;
 }

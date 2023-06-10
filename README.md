@@ -1,18 +1,21 @@
 <h1 align="center"> Robotron 2000 </h1>
 
-![](https://raw.githubusercontent.com/hyanguimaraes/robotron_2000/img/readme/XXXXXX.gif#vitrinedev)
+![](https://raw.githubusercontent.com/hyanguimaraes/robotron_2000/img/Robotron_2000.gif#vitrinedev)
 
 ![](https://img.shields.io/github/forks/hyanguimaraes/robotron_2000?style=social) ![](https://img.shields.io/github/last-commit/hyanguimaraes/robotron_2000?style=plastic)
 
 📝 Descrição do projeto
 ---
-ALTERAR A DESCRIÇÃO, LINKS, ETC. ESTE README É APENAS UM MODELO
-Página do jogo Robotron 2000 criada como estudo de caso para prática de JavaScript dos cursos "JavaScript: Manipulando o DOM" e "JavaScript na Web: Armazenando dados no navegador" da [Alura](https://www.alura.com.br/) (links abaixo). A ideia aqui era praticar o uso do _JavaScript_, então, a escola forneceu os arquivos HTML e CSS. Foram necessárias algumas alterações em ambos, como exemplo a inserção de _data-atributes_ no HTML para manipulação usando o _JS_, dependendo da sua necessidade. Foi muito bom ter feito este curso, uma vez que reconheço que preciso praticar muito o meu _JS_. Consegui desenvolver minhas habilidades e fazer com que o jogo rodasse com toda a lógica redondinha!
+Página do jogo Robotron 2000! Seu objetivo é criar um robô de poder 300 para defender a terra!
+Página criada como estudo de caso para prática de JavaScript do curso "JavaScript: Manipulando o DOM" da [Alura](https://www.alura.com.br/) (links abaixo). A ideia aqui era praticar o uso do JavaScript, então, a escola forneceu os arquivos HTML e CSS. Foram necessárias algumas alterações em ambos, como exemplo a inserção de _data-atributes_ no HTML para manipulação usando o JS, dependendo da sua necessidade. A prática em sí foi criar toda a lógica de soma dos atributos Força, Poder, Energia e Velocidade com base nos valores somados ou subtraídos por cada peça.
+
+Ao final do curso, foi deixado o desafio de incluir a funcionalidade de mudança de cor a gosto do usuário. Foram disponibilizadas 05 artes pela Alura. Essa implementação fiz criando uma nova seção no HTML com 05 botões de input, um para cada opção de cor, já aplicando a mesma estética do botão "Produção" e efeitos de _hover_ no CSS. Para essa seção usei o _Flexbox_. A lógica para troca das imagens no HTML foi feita no JS usando _eventListeners_.
+
+Foi muito bom ter feito este curso, uma vez que reconheço que preciso praticar muito o meu JS. Este é só o primeiro de oito cursos que farei durante a formação JavaScript para Web. Aqui Consegui desenvolver bastante minhas habilidades e fazer com que o jogo rodasse com toda a lógica redondinha!
 
 [🔗 Acesse o projeto](https://hyanguimaraes.github.io/robotron_2000/)
 
 [📚 Página do curso "JavaScript: Manipulando o DOM"](https://cursos.alura.com.br/course/javascript-manipulando-dom)
-[📚 Página do curso "Praticando CSS: Grid e Flexbox"](https://cursos.alura.com.br/course/javascript-web-armazenando-dados-navegador)
 
 🛠️ Tecnologias utilizadas
 ---
