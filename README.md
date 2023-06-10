@@ -1,8 +1,8 @@
 <h1 align="center"> Robotron 2000 </h1>
 
-![](https://raw.githubusercontent.com/hyanguimaraes/robotron_2000/img/robotron_2000.gif#vitrinedev)
+![](https://raw.githubusercontent.com/hyanguimaraes/Robotron_2000/img/Robotron_2000.gif#vitrinedev)
 
-![](https://img.shields.io/github/forks/hyanguimaraes/robotron_2000?style=social) ![](https://img.shields.io/github/last-commit/hyanguimaraes/robotron_2000?style=plastic)
+![](https://img.shields.io/github/forks/hyanguimaraes/Robotron_2000?style=social) ![](https://img.shields.io/github/last-commit/hyanguimaraes/Robotron_2000?style=plastic)
 
 📝 Descrição do projeto
 ---
@@ -13,7 +13,7 @@ Ao final do curso, foi deixado o desafio de incluir a funcionalidade de mudança
 
 Foi muito bom ter feito este curso, uma vez que reconheço que preciso praticar muito o meu JS. Este é só o primeiro de oito cursos que farei durante a formação JavaScript para Web. Aqui Consegui desenvolver bastante minhas habilidades e fazer com que o jogo rodasse com toda a lógica redondinha!
 
-[🔗 Acesse o projeto](https://hyanguimaraes.github.io/robotron_2000/)
+[🔗 Acesse o projeto](https://hyanguimaraes.github.io/Robotron_2000/)
 
 [📚 Página do curso "JavaScript: Manipulando o DOM"](https://cursos.alura.com.br/course/javascript-manipulando-dom)
 
