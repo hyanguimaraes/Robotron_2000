@@ -1,6 +1,6 @@
 <h1 align="center"> Robotron 2000 </h1>
 
-![](https://raw.githubusercontent.com/hyanguimaraes/Robotron_2000/img/Robotron_2000.gif#vitrinedev)
+![](https://github.com/hyanguimaraes/Robotron_2000/blob/main/img/Robotron_2000.gif?raw=true#vitrinedev)
 
 ![](https://img.shields.io/github/forks/hyanguimaraes/Robotron_2000?style=social) ![](https://img.shields.io/github/last-commit/hyanguimaraes/Robotron_2000?style=plastic)
 
