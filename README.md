@@ -1,30 +1,18 @@
 <h1 align="center"> Robotron 2000 </h1>
 
-![](https://raw.githubusercontent.com/hyanguimaraes/culturama/main/assets/img/readme/culturama_desktop_finalizado.gif#vitrinedev)
+![](https://raw.githubusercontent.com/hyanguimaraes/robotron_2000/img/readme/XXXXXX.gif#vitrinedev)
 
-![](https://img.shields.io/github/forks/hyanguimaraes/culturama?style=social) ![](https://img.shields.io/github/last-commit/hyanguimaraes/culturama?style=plastic)
+![](https://img.shields.io/github/forks/hyanguimaraes/robotron_2000?style=social) ![](https://img.shields.io/github/last-commit/hyanguimaraes/robotron_2000?style=plastic)
 
 📝 Descrição do projeto
 ---
 ALTERAR A DESCRIÇÃO, LINKS, ETC. ESTE README É APENAS UM MODELO
-Página inicial de uma empresafictícia de eventos chamada Culturama criada nas versões _mobile (360px)_, _tablet (720px)_ e _desktop (1440px)_, como estudo de caso no curso "Praticando CSS: Grid e Flexbox". O projeto foi todo desenvolvido seguindo a metodologia _Mobile first_ e o design no [Figma](https://www.figma.com/file/mC6DmuXPGWHYkMWOQD3khm/2713---Praticando-CSS%3A-Grid-e-Flexbox) disponibilizado pela [Alura](https://www.alura.com.br/). A ideia aqui era praticar o uso do _Flexbox_ e do _Grid_ e saber onde e como usar cada um, dependendo da sua necessidade. Para mim, este projeto serviu mais como uma revisão / prática, uma vez que eu já trabalho com ambos os métodos desde o início da minha formação como desenvolvedor.
+Página do jogo Robotron 2000 criada como estudo de caso para prática de JavaScript dos cursos "JavaScript: Manipulando o DOM" e "JavaScript na Web: Armazenando dados no navegador" da [Alura](https://www.alura.com.br/) (links abaixo). A ideia aqui era praticar o uso do _JavaScript_, então, a escola forneceu os arquivos HTML e CSS. Foram necessárias algumas alterações em ambos, como exemplo a inserção de _data-atributes_ no HTML para manipulação usando o _JS_, dependendo da sua necessidade. Foi muito bom ter feito este curso, uma vez que reconheço que preciso praticar muito o meu _JS_. Consegui desenvolver minhas habilidades e fazer com que o jogo rodasse com toda a lógica redondinha!
 
-<h3>✅ Versão mobile 360px 📱</h3>
+[🔗 Acesse o projeto](https://hyanguimaraes.github.io/robotron_2000/)
 
-![](https://raw.githubusercontent.com/hyanguimaraes/culturama/main/assets/img/readme/culturama_mobile_finalizado.gif)
-
-<h3>✅ Versão tablet 720px 📱</h3>
-
-![](https://raw.githubusercontent.com/hyanguimaraes/culturama/main/assets/img/readme/culturama_tablet_finalizado.gif)
-
-<h3>✅ Versão desktop 1440px 🖥️</h3>
-
-![](https://raw.githubusercontent.com/hyanguimaraes/culturama/main/assets/img/readme/culturama_desktop_finalizado.gif)
-
-
-[🔗 Acesse o projeto](https://hyanguimaraes.github.io/Culturama/)
-
-[📚 Página do curso "Praticando CSS: Grid e Flexbox"](https://www.alura.com.br/curso-online-praticando-css-grid-flexbox--amp?gclid=CjwKCAiA0cyfBhBREiwAAtStHFE65Z-o5haHu1hE1pxKeXRuoIbBqunmjE1H_x8d2i6W2A2_bNDfABoCiq4QAvD_BwE)
+[📚 Página do curso "JavaScript: Manipulando o DOM"](https://cursos.alura.com.br/course/javascript-manipulando-dom)
+[📚 Página do curso "Praticando CSS: Grid e Flexbox"](https://cursos.alura.com.br/course/javascript-web-armazenando-dados-navegador)
 
 🛠️ Tecnologias utilizadas
 ---
